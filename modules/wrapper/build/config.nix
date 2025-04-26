@@ -52,6 +52,7 @@
     };
 
     inherit (inputs.self.legacyPackages.${pkgs.stdenv.system}) blink-cmp;
+    inherit (inputs.self.legacyPackages.${pkgs.stdenv.system}) avante-nvim;
   };
 
   buildConfigPlugins = plugins:
